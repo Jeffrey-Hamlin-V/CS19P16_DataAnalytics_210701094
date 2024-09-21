@@ -1,4 +1,4 @@
-install.packages("ggplot2")
+# Load the iris dataset 
 data(iris) 
 # Use only the numeric columns for clustering (exclude the Species column) 
 iris_data <- iris[, -5] 
@@ -21,4 +21,4 @@ head(iris)
 library(ggplot2) 
 ggplot(iris, aes(x = Sepal.Length, y = Sepal.Width, color = Cluster)) + 
   geom_point(size = 3) + 
-  labs(title = "K-Means Clustering of Iris Dataset", x = "Sepal Length", y = "Sepal Width") 
+  labs(title = "K-Means Clustering of Iris Dataset", x = "Sepal Length", y = "Sepal Width")

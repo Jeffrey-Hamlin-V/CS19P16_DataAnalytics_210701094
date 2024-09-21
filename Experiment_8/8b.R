@@ -22,4 +22,5 @@ confusion_matrix <- table(Predicted = predictions, Actual = test_data$Species)
 print(confusion_matrix) 
 # Calculate accuracy 
 accuracy <- sum(diag(confusion_matrix)) / sum(confusion_matrix) 
-cat("Accuracy:", accuracy * 100, "%\n")
+cat("Accuracy:", accuracy * 100, "%\n") 
+

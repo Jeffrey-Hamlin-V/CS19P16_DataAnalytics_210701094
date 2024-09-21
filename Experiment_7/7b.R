@@ -18,4 +18,4 @@ plot(mtcars$mpg, as.numeric(mtcars$am) - 1,
      pch = 19, col = "blue") 
 # Add the logistic regression curve 
 curve(predict(logistic_model, data.frame(mpg = x), type = "response"),  
-      add = TRUE, col = "red", lwd = 2)
+      add = TRUE, col = "red", lwd = 2) 

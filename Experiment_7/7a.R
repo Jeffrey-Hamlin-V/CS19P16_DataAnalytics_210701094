@@ -9,9 +9,10 @@ linear_model <- lm(weights ~ heights, data = data)
 print(summary(linear_model)) 
 # Plotting the data and regression line 
 plot(data$heights, data$weights, 
-main = "Linear Regression: Weight vs. Height", 
-xlab = "Height (cm)", 
-ylab = "Weight (kg)", 
-pch = 19, col = "blue") 
+     main = "Linear Regression: Weight vs. Height", 
+     xlab = "Height (cm)", 
+     ylab = "Weight (kg)", 
+     pch = 19, col = "blue") 
 # Add regression line 
-abline(linear_model, col = "red", lwd = 2)
+abline(linear_model, col = "red", lwd = 2) 
+

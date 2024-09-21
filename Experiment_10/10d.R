@@ -1,3 +1,6 @@
+# Install ggplot2 (if not already installed) 
+install.packages("ggplot2") 
+# Load the ggplot2 package 
 library(ggplot2) 
 # Box plot of Sepal Length for each Species 
 ggplot(data = iris, aes(x = Species, y = Sepal.Length, fill = Species)) + 
